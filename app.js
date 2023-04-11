@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 8000;
 // let minifyHTML = require('express-minify-html');
 let options = {
   maxAge: '2y',
@@ -26,7 +26,7 @@ app.use(express.static('public', options));
 //   }
 // }));
 
-var poemsRouter = require('./routes/poemas');
+var poemsRouter = require('./routes/poems');
 app.use('/', poemsRouter);
 
 app.listen(port, () => {
