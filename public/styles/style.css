@@ -42,3 +42,23 @@ li {
 a {
     text-decoration: none;
 }
+
+/**********/
+/* HEADER */
+/**********/
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav img {
+width: 10%;
+}
+header ul li:first-of-type {
+    width: fit-content;
+}
+
+header nav p {
+    font-weight: 500;
+}
+
