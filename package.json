@@ -1,0 +1,33 @@
+{
+  "name": "dicho-hackaton",
+  "version": "1.0.0",
+  "description": "Welcome to the world of poetry with a twist of AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RainbowJM/dicho-hackaton.git"
+  },
+  "keywords": [
+    "Hackaton",
+    "AI",
+    "Poetry"
+  ],
+  "author": "Keïsha Alexander & Jevona Magdalena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RainbowJM/dicho-hackaton/issues"
+  },
+  "homepage": "https://github.com/RainbowJM/dicho-hackaton#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-minify-html": "^0.12.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
