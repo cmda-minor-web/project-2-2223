@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /*color palette*/
+
+    --coral-deeppink: #ff4a61;
+    --orange-yellow: #feb63d;
+    --light-grey: #e2e2e2;
+    --black: #000000;
+
+    --title: 'Commissioner', Arial, 
+        Helvetica,
+        sans-serif;
+    --text: 'Commissioner', Arial, 
+        Helvetica,
+        sans-serif;
+
+}
+
+
+body {
+    font-family: var(--text);
+}
+
+h1{
+    font-family: var(--title);
+    font-weight: 500;
+}
+
+p{
+font-weight: 400;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
