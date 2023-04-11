@@ -1,33 +1,39 @@
-# Project 1 @cmda-minor-web 2022 - 2023
+# Project 2 @cmda-minor-web 2022 - 2023
 
-## GitHub Powered Portfolio
+## Responsible IT Hackathon
 
-In een week bouwt iedere student aan de hand van een user story een eigen prototype. Technieken geleerd bij [CSS to the Rescue](https://github.com/cmda-minor-web/css-to-the-rescue-2021) en [Web App from Scratch](https://github.com/cmda-minor-web/web-app-from-scratch-2021) worden toegepast bij het bouwen van de de prototypes.
-
-
-## Programma
+In een week bouwt iedere student aan de hand van een user story een eigen prototype. Technieken geleerd bij [Browser Technologies](https://github.com/cmda-minor-web/browser-technologies-2223) en [Progressive Web Apps](https://github.com/cmda-minor-web/progressive-web-apps-2223) worden toegepast bij het bouwen van de de prototypes.
 
 ### Kickoff
 
-## Opdrachtomschrijving
+Op dinsdag heeft Yuri Westplat een kick-off gegeven over de mogelijke opdrachten waar je deze week uit kan kiezen. Het thema van deze week draait om AI toegankelijk maken voor gebruikers door middel van interfaces.
+
+## Opdrachtomschrijvingen
+
+Voor deze week zijn er twee mogelijke opdrachten:
+
+### Opdracht 1: Prompt-engineering (oranje)
+
+Voor deze opdracht is je target een 75" scherm met touch. Als je specifiek front-end maakt voor dit soort schermen gebeuren er allemaal rare dingen. Tijdens Browser Technologies heb je leren werken met obscure apparaten. Je gaat de hele week prototypen hiermee om een interface te maken waar gebruikers "prompts" kunnen invoeren.
+
+### Opdracht 2: AI muziekinstrument (blauw)
+
+Een front-end voor een muziekinstrumenten die op basis van data muziekvisualisaties genereren. Je wil de gebruiker de kans geven om het eindresultaat aan te passen. "Dingen" als DALL-E en Midjourney hebben een vrij lineare output, namelijk een input en een output. Tijdens dit project wil een gebruiker met meerdere momenten van input de output "sturen" als het ware.
 
 ## Weekplanning
 
 | Dag  | Tijd | Wat |
 |---|---|--|
-| Maandag 13/03 | 10:00 uur | Kickoff |
+| Maandag 10/04 | Hele dag | Tweede paasdag |
+| Dinsdag 11/04 | 9:30 | Kickoff w/ Yuri Westplat |
 |  | 11:00 - 16:00 uur | Werken aan de opdracht |
-| Dinsdag 14/03 | 9:30 - 16:00 uur | Werken aan de opdracht |
-| Woensdag 15/03 | 9:30 - 16:00 uur | Standups met coaches |
-| Donderdag 16/03 | 9:30 - 16:00 uur | Werken aan de opdracht|
-| Vrijdag 17/03 | 12:00 uur | Presentaties |
+| Woensdag 12/04 | 9:30 - 16:00 uur | Standups met coaches |
+| Donderdag 13/04 | 9:30 - 16:00 uur | Werken aan de opdracht|
+| Vrijdag 14/04 | 12:00 uur | Presentaties |
 
-
-
-## Werkwijze en Criteria
 
 ### Werkwijze
-Full-time week werken aan (technisch) bewijzen van een concept-idee. Vrijdag is de pitch! Student laat zien dat hij/zij de vakken [CSS to the Rescue](https://github.com/cmda-minor-web/css-to-the-rescue-2021) en [Web App from Scratch](https://github.com/cmda-minor-web/web-app-from-scratch-2021) begrijpt en beheerst.
+Full-time week werken aan (technisch) bewijzen van een concept-idee. Vrijdag is de pitch! Student laat zien dat hij/zij de vakken [Browser Technologies](https://github.com/cmda-minor-web/browser-technologies-2223) en [Progressive Web Apps](https://github.com/cmda-minor-web/progressive-web-apps-2223) begrijpt en beheerst.
 
 Op maandag, woensdag en vrijdag zijn er coaches aanwezig voor coaching en feedback. Maandag is de kickoff, woensdag zijn er standups om de status door te spreken. Waar ben je mee bezig? Loop je ergens vast of heb je hulp nodig? Waar sta je? Vrijdag is de beoordeling.
 
@@ -38,12 +44,6 @@ Het project telt als AVV mee met de Meesterproef.
 
 ### Feedback over functioneren
 Je hebt een leergierig, gedreven en zelfredzame houding nodig om de minor te kunnen halen. Welke vaardigheden heb je laten zien? Onderzoekend vermogen? Creativiteit? Conceptueel? In hoeverre komen je houding en verworven vaardigheden overeen met wat een frontender in de praktijk nodig heeft?
-
-### Feedback over Web App from Scratch
-In het vak [Web App from Scratch](https://github.com/cmda-minor-web/web-app-from-scratch-2021) heb je geleerd een web app te maken zonder frameworks of onnodige libraries, dus zoveel mogelijk met native HTML, CSS & JavaScript. Het eindproduct is een modulair opgezet prototype voor een single page web app. Data wordt opgehaald uit een externe API, waar nodig gemanipuleerd en vervolgens getoond in de Web App. Je leert hoe structuur aan te brengen in je code en hoe je hiermee 'from scratch' een web app kan maken.
-
-### Feedback over CSS to the Rescue
-In het vak [CSS to the Rescue](https://github.com/cmda-minor-web/css-to-the-rescue-2021) heb je geleerd over de (brede) scope van CSS, over Progressive Enhancement, de _cascase_, _inheritance_ en _specifity_. Het is belangrijk om deze basisprincipes van CSS goed te begrijpen. Niet alleen op praktisch niveau, ook op experimenteel niveau. Zonder goed begrip van de basisprincipes is CSS magisch en weird. Met een goed begrip heb je CSS onder controle en kan je het laten doen wat jij wil. En dat is nodig om webpagina’s vorm te geven met attention to detail; webpagina’s waar mensen blij van worden.
 
 ### Oplevering & criteria
 - Presentatie. 
