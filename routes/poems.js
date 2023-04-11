@@ -8,4 +8,12 @@ router.get('/', function (req, res) {
     });
 });
 
+router.get('/poems', (req, res)=>{
+    res.render('poems',{
+         title: 'Make your poems'
+    }
+  
+    )
+})
+
 module.exports = router;
