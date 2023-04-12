@@ -3,7 +3,7 @@ const request = require('request');
 const router = express.Router();
 const API_KEY = 'dichter-a6a8ae46-4c90'
 const options = {
-    url: 'https://dichter.responsible-it.nl/api/poetry?type=5&theme=mooi bos warme zomerdag',
+    url: 'https://dichter.responsible-it.nl/api/types',
     headers: {
         'Authorization': `Bearer ${API_KEY}`,
         'Content-Type': 'application/json'
