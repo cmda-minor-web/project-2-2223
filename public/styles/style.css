@@ -194,10 +194,6 @@ header nav p {
 /********/
 /* MAIN */
 /********/
-
-
-
-
 #start main p {
     font-size: 18px;
     margin: 0;
@@ -301,15 +297,10 @@ header nav p {
     transform: translateY(calc(var(--font-size) * -1));
 }
 
-
-
-
 /**********************/
 /* LOADING STATE 1 */
 /**********************/
 #loading {
-    /* 	--length:5; */
-    /* 	--length:7; */
         --length:8;
         --duration:2;
         
@@ -321,8 +312,7 @@ header nav p {
         gap:.1em;
         border:solid .05em #ff4a61;
         background-color:#ff4a61;
-        font-size:3em;
-        
+        font-size:3em; 
     }
     
     /************/
@@ -355,7 +345,7 @@ header nav p {
         font-size:.5em;
         color:white;
         transform-origin:bottom;
-        font-family--text: 'Commissioner', Arial,
+        font-family: 'Commissioner', Arial,
             Helvetica,
             sans-serif;
         
