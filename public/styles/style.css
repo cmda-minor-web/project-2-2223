@@ -12,10 +12,10 @@
     --light-grey: #e2e2e2;
     --black: #000000;
 
-    --title: 'Commissioner', Arial, 
+    --title: 'Commissioner', Arial,
         Helvetica,
         sans-serif;
-    --text: 'Commissioner', Arial, 
+    --text: 'Commissioner', Arial,
         Helvetica,
         sans-serif;
 
@@ -24,15 +24,18 @@
 
 body {
     font-family: var(--text);
+    position: relative;
+    height: 100vh;
+    background-color: var(--light-grey);
 }
 
-h1{
+h1 {
     font-family: var(--title);
     font-weight: 500;
 }
 
-p{
-font-weight: 400;
+p {
+    font-weight: 400;
 }
 
 li {
@@ -52,8 +55,9 @@ header nav {
 }
 
 header nav img {
-width: 10%;
+    width: 10%;
 }
+
 header ul li:first-of-type {
     width: fit-content;
 }
@@ -62,3 +66,120 @@ header nav p {
     font-weight: 500;
 }
 
+/**********************/
+/* DECORATION GROUP 1 */
+/**********************/
+.background-decoration-1 {
+    z-index: -1;
+    border-radius: 3em;
+    position: absolute;
+    top: 3em;
+    right: 0;
+
+
+}
+
+.background-decoration-1 figure {
+    /* background-color: #feb63d; */
+    border-radius: 4em;
+    width: 7em;
+    height: 3em;
+}
+
+.background-decoration-1 figure:nth-of-type(1) {
+    background-color: var(--light-grey);
+    border: 3px solid var(--orange-yellow);
+}
+
+.background-decoration-1 figure:nth-of-type(2) {
+    background-color: var(--orange-yellow);
+    height: 1.5em;
+    width: 9em;
+}
+
+.background-decoration-1 figure:nth-of-type(3) {
+    background-color: var(--coral-deeppink);
+    width: 7em;
+    height: 3em;
+}
+
+/*********************************/
+/* BACHGROUND-DECORATION GROUP 2 */
+/*********************************/
+.background-decoration-2 {
+    z-index: -1;
+    border-radius: 3em;
+    position: absolute;
+    bottom: 2em;
+    right: 0;
+
+}
+
+.background-decoration-2 figure {
+    /* background-color: #feb63d; */
+    border-radius: 4em;
+    width: 7em;
+    height: 3em;
+}
+
+.background-decoration-2 figure:nth-of-type(1) {
+    background-color: var(--coral-deeppink);
+    width: 10em;
+}
+
+.background-decoration-2 figure:nth-of-type(2) {
+    background-color: var(--orange-yellow);
+    height: 1.5em;
+    width: 5em;
+}
+
+.background-decoration-2 figure:nth-of-type(3) {
+    background-color: var(--light-grey);
+    border: 3px solid var(--coral-deeppink);
+    width: 12em;
+
+}
+
+/**********************/
+/* DECORATION GROUP 3 */
+/**********************/
+.background-decoration-3 {
+    z-index: -1;
+    border-radius: 3em;
+    position: absolute;
+    bottom: 2em;
+    left: 0;
+
+}
+
+.background-decoration-3 figure {
+    /* background-color: #feb63d; */
+    border-radius: 4em;
+    width: 7em;
+    height: 3em;
+}
+
+.background-decoration-3 figure:nth-of-type(1) {
+    background-color: var(--coral-deeppink);
+    width: 6em;
+}
+
+
+.background-decoration-3 figure:nth-of-type(2) {
+    border: 3px solid var(--black);
+    width: 12em;
+}
+
+
+@media (max-width: 30em) {
+
+    .background-decoration-1,
+    .background-decoration-2,
+    .background-decoration-3 {
+        display: none;
+    }
+}
+
+/********/
+/* MAIN */
+/********/
