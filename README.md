@@ -6,9 +6,10 @@ Teammates:
 - Jevona Magdalena
 - Keïsha Alexander
 - Hilal Tapan 
+- Laiba Choudhry
 
 ## Concept
-Voor de 
+For this project 
 
 ---
 ## Table of Content
