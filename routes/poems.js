@@ -29,7 +29,21 @@ router.get('/poems', (req, res)=>{
             });
         }
     })
+})
 
+router.get('/generate', (req, res)=>{
+    request.get(options, (error, response, body)=>{
+        if(error){
+            res.send(error)
+            console.log(error)
+        }else {
+            console.log(body)
+            res.render('generate-poems', {
+               title: 'Generating',
+               generateData: body 
+            });
+        }
+    })
 })
 
 
