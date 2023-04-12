@@ -298,8 +298,9 @@ header nav p {
     transform: translateY(calc(var(--font-size) * -1));
 }
 
+
 /**********************/
-/* LOADING STATE 1 */
+/* LOADING STATE */
 /**********************/
 #loading {
         --length:8;
@@ -410,3 +411,47 @@ header nav p {
     #loading > li:nth-of-type(7) { --index:6; }
     #loading > li:nth-of-type(8) { --index:7; }
     #loading > li:nth-of-type(9) { --index:8; }
+
+
+
+
+     
+    /************/
+    /* GENERATOR */
+    /************/
+
+    /* #generate {
+        display: flex;
+    } */
+
+    #generate section {
+        margin-bottom: 5em;
+    }
+
+    #generate section:nth-of-type(1) ul {
+        display: flex;
+        gap: 3vw;
+    }
+
+    #generate section:nth-of-type(1) li {
+        background-color: var(--coral-deeppink);
+        width: 10vw;
+        height: 5vh;
+        border-radius: 3em;
+    }
+
+    #generate section:nth-of-type(2) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: white;
+        width: 80vw;
+    }
+
+    #generate section:nth-of-type(2) form{
+        grid-column-start: 1 ;
+
+    }
+    #generate section:nth-of-type(2) div{
+        grid-column-start: 2 ;
+
+    }

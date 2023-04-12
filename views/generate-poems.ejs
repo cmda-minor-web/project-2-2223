@@ -5,33 +5,36 @@
     <%- include('./partials/head'); %>
 </head>
 
-<body id="start">
+<body id="generate">
     <header>
         <%- include('./partials/header'); %>
     </header>
 
     <main>
 
-        <section id="type">
+        <section>
             <ul>
                 <li>
                     <!-- insert api types -->
                 </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
         </section>
 
         <section>
             <form>
-                <label for="input-text">Input:</label>
+                <label for="input-text">Thema</label>
                 <textarea id="input-text" rows="5" placeholder="Enter your input here..."></textarea>
                 <!-- insert thema api in input field??-->
-
-
-                <div class="preview">Preview:</div>
             </form>
+
+            <div class="preview">Preview:</div>
+
         </section>
 
-        <%- include('./partials/loading'); %>
         </fieldset>
     </main>
 </body>
