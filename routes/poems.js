@@ -20,12 +20,12 @@ router.get('/poems', (req, res) => {
     request.get(options, (error, response, body) => {
         if (error) {
             res.send(error)
-            console.log(error)
         } else {
-            console.log(body)
+            console.log(JSON.parse(body).data)
+            // console.log(body)
             res.render('poems', {
                 title: 'Make your poem',
-                poemsData: body
+                poemsData: JSON.parse(body).data
             });
         }
     });
