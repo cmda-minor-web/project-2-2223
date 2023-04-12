@@ -16,21 +16,25 @@ router.get('/', function (req, res) {
     });
 });
 
-router.get('/poems', (req, res)=>{
-    request.get(options, (error, response, body)=>{
-        if(error){
+router.get('/poems', (req, res) => {
+    request.get(options, (error, response, body) => {
+        if (error) {
             res.send(error)
             console.log(error)
-        }else {
+        } else {
             console.log(body)
             res.render('poems', {
-               title: 'Maak je gedichten',
-               poemsData: body 
+                title: 'Make your poem',
+                poemsData: body
             });
         }
+    });
+});
+
+router.get('/offline', function(req, res) {
+    res.render('offline', {
+        title: 'Offline page'
     })
-
 })
-
 
 module.exports = router;
