@@ -5,6 +5,7 @@
 Teammates:
 - Jevona Magdalena
 - Keïsha Alexander
+- hilal 
 
 ## Concept
 Voor de 
