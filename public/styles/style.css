@@ -195,8 +195,21 @@ header nav p {
 /* MAIN */
 /********/
 
+#offline main {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
+#offline main p {
+    font-size: 18px;
+    margin: 0;
+    color: var(--text-color);
+    font-size: var(--font-size);
+    line-height: var(--font-size);
+    zoom: 1.5;
+}
 
 #start main p {
     font-size: 18px;
@@ -206,7 +219,6 @@ header nav p {
     line-height: var(--font-size);
     zoom: 1.5;
 }
-
 
 #start main p .link {
     display: inline-block;
