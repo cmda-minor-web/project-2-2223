@@ -12,10 +12,10 @@
     --light-grey: #e2e2e2;
     --black: #000000;
 
-    --title: 'Commissioner', Arial, 
+    --title: 'Commissioner', Arial,
         Helvetica,
         sans-serif;
-    --text: 'Commissioner', Arial, 
+    --text: 'Commissioner', Arial,
         Helvetica,
         sans-serif;
 
@@ -26,13 +26,13 @@ body {
     font-family: var(--text);
 }
 
-h1{
+h1 {
     font-family: var(--title);
     font-weight: 500;
 }
 
-p{
-font-weight: 400;
+p {
+    font-weight: 400;
 }
 
 li {
