@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-/*hallo*/
 :root {
     /*color palette*/
 
@@ -116,7 +115,7 @@ header nav p {
 }
 
 /*********************************/
-/* BACHGROUND-DECORATION GROUP 2 */
+/* DECORATION GROUP 2 */
 /*********************************/
 .background-decoration-2 {
     z-index: -1;
@@ -195,7 +194,14 @@ header nav p {
 /********/
 /* MAIN */
 /********/
-#start main p {
+#offline main {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#offline main p {
     font-size: 18px;
     margin: 0;
     color: var(--text-color);
@@ -204,6 +210,14 @@ header nav p {
     zoom: 1.5;
 }
 
+#start main p {
+    font-size: 18px;
+    margin: 0;
+    color: var(--text-color);
+    font-size: var(--font-size);
+    line-height: var(--font-size);
+    zoom: 1.5;
+}
 
 #start main p .link {
     display: inline-block;
