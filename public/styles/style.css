@@ -19,14 +19,24 @@
         Helvetica,
         sans-serif;
 
+        --text-color: #2b3044;
+        --font-size: 16px;
+        --duration: 2.5s;
+        --duration-line: 0.84s;
 }
-
 
 body {
     font-family: var(--text);
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--light-grey);
+}
+
+#start main{
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -55,7 +65,7 @@ header nav {
 }
 
 header nav img {
-    width: 10%;
+    width: 20%;
 }
 
 header ul li:first-of-type {
@@ -64,6 +74,7 @@ header ul li:first-of-type {
 
 header nav p {
     font-weight: 500;
+    font-size: clamp(3em, 2vw, 8em);
 }
 
 /**********************/
@@ -183,3 +194,109 @@ header nav p {
 /********/
 /* MAIN */
 /********/
+
+
+
+
+#start main p {
+    font-size: 18px;
+    margin: 0;
+    color: var(--text-color);
+    font-size: var(--font-size);
+    line-height: var(--font-size);
+    zoom: 1.5;
+}
+
+
+#start main p .link {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+#start main p .link div:first-child {
+    display: flex;
+    overflow: hidden;
+    text-shadow: 0 var(--font-size) 0 var(--text-color);
+}
+
+#start main p .link div:last-child {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 300%;
+    height: 5px;
+    transform: translateY(var(--line-x)) translateZ(0);
+    transition: transform var(--line-d, 0s);
+}
+
+#start main p .link div span {
+    display: inline-block;
+    backface-visibility: hidden;
+    font-style: normal;
+    animation: moveText var(--duration) ease infinite;
+    transform: translateY(var(--m, 0));
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(calc(var(--font-size) * -1));
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#start main p .link div span:nth-child(1) {
+    transition-delay: 0s;
+}
+
+#start main p .link div span:nth-child(2) {
+    transition-delay: 0.05s;
+}
+
+#start main p .link div span:nth-child(3) {
+    transition-delay: 0.1s;
+}
+
+#start main p .link div span:nth-child(4) {
+    transition-delay: 0.15s;
+}
+
+#start main p .link div span:nth-child(5) {
+    transition-delay: 0.2s;
+}
+
+#start main p .link div span:nth-child(6) {
+    transition-delay: 0.25s;
+}
+
+#start main p .link div span:nth-child(7) {
+    transition-delay: 0.3s;
+}
+
+#start main p .link div span:nth-child(8) {
+    transition-delay: 0.35s;
+}
+
+#start main p .link div span:nth-child(9) {
+    transition-delay: 0.4s;
+}
+
+#start main p .link div span:nth-child(10) {
+    transition-delay: 0.45s;
+}
+
+#start main p .link div span:nth-child(11) {
+    transition-delay: 0.5s;
+}
+
+#start main p .link:hover span {
+    transform: translateY(calc(var(--font-size) * -1));
+}
