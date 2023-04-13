@@ -291,6 +291,10 @@ header nav p {
 /********/
 /* MAIN */
 /********/
+
+/****************/
+/* OFFLINE PAGE */
+/****************/
 #offline main {
     min-height: 50vh;
     display: flex;
@@ -298,12 +302,7 @@ header nav p {
     align-items: center;
 }
 
-#start main {
-    min-height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 #offline main p {
     font-size: 18px;
@@ -312,6 +311,17 @@ header nav p {
     font-size: var(--font-size);
     line-height: var(--font-size);
     zoom: 1.5;
+}
+
+
+/*************/
+/* STARTPAGE */
+/*************/
+#start main {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #start main p {
@@ -658,3 +668,7 @@ li {
     grid-column-start: 2;
     width: 5em;
 }
+
+/**************/
+/* POEMS PAGE */
+/**************/
