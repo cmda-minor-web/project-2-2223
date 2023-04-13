@@ -1,7 +1,6 @@
-# Dicho di Hubentut
-## Youth poetry
+# Dicho di Hubentut ~ Youth poetry
 
-### Projectweek 3: Hackathon 
+## Projectweek 3: Hackathon 
 Teammates:
 - Jevona Magdalena
 - Keïsha Alexander
@@ -9,10 +8,9 @@ Teammates:
 - Laiba Choudhry
 
 ## Concept
-For this project 
-
+During the projectweek we are given a choice between 2 projects, we have decided to go with the project Prompts engineering with poems For this assignment we will have to fetch an api where you can generate  
 ---
-## Table of Content
+## Features combined
 
 
 
