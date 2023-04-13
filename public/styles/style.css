@@ -601,8 +601,7 @@ header nav p {
         color: var(--coral-deeppink) ;
         font-family: var(--title);
         margin-bottom: 1em ;
-        font-size: var(--font-size);
-        
+        font-size: var(--font-size); 
     }
 
     #generate section:nth-of-type(2) textarea {
