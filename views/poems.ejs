@@ -5,61 +5,29 @@
     <%- include('./partials/head'); %>
 </head>
 
-<body>
+<body id="poems-page">
     <header>
         <%- include('./partials/header'); %>
     </header>
 
     <main>
-        <section id="type">
-            <ul>
-                <li>
-                    <% data.forEach((type) => { %>
-                        <li><%= type %></li>
-                <% }); %>
-            </li>
-            </ul>
-        </section>
+        <h2>All Your poems</h2>
 
         <section>
-            <form>
-                <label for="input-text">Input:</label>
-                <textarea id="input-text" rows="5" placeholder="Enter your input here..."></textarea>
-                <!-- insert thema api in input field??-->
-
-                <label for="preview">Preview</label>
-                <div class="preview">Text</div>
-            </form>
+            <article></article>
+            <article></article>
+            <article></article>
+            <article></article>
+            <article></article>
         </section>
 
-         <%- include('./partials/loading'); %> 
     </main>
 
     <footer>
         <%- include('./partials/footer'); %>
     </footer>
 
-    <div class="background-decoration-1">
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-    </div>
-
-    <div class="background-decoration-2">
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-    </div>
-
-    <div class="background-decoration-3">
-        <figure></figure>
-        <figure></figure>
-    </div>
-
-
-
-
-<script src="./scripts/preview.js"></script>
+<%- include('./partials/background-decoration'); %>
 
 </body>
 
