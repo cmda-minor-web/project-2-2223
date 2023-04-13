@@ -1,4 +1,4 @@
-const words = ["Dicho", "Poetry", "Gedichten", "Poemas", "시", "Poèmes"];
+const words = ["Dicho", "Poetry","Şiir", "Gedichten","نظم", "Poemas", "시", "Poèmes"];
 const linkElements = document.querySelectorAll(".link");
 
 function animateWords() {
