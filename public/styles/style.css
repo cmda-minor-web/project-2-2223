@@ -722,13 +722,14 @@ header nav p {
 
 #generate section:nth-of-type(2) form button {
     background-color: var(--coral-deeppink);
-    padding: 1em 2em;
+    padding: 2em 3em;
     border-radius: 3em;
     justify-content: center;
     margin: auto;
     border: none;
     color: var(--white);
     margin-top: 3em;
+    box-shadow: 5px 5px #888888;
 }
 
 #generate section:nth-of-type(2) div {
