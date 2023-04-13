@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('./partials/head'); %>
+</head>
+
+
+<body id="generate">
+
+    <header>
+        <%- include('./partials/header'); %>
+    </header>
+
+    <main>
+
+        <section>
+            <ul>
+                <li>
+                    <!-- insert api types -->
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+
+        <section>
+            <form action="./loading.ejs">
+                <h2>Make your poems</h2>
+                <label for="input-text">Thema</label>
+                <textarea id="input-text" rows="10" placeholder="Enter your input here..."></textarea>
+                <!-- insert thema api in input field??-->
+                <button type="submit">Generate</button>
+            </form>
+
+            <div class="preview">
+                <h2>Preview:</h2>
+            </div>
+
+        </section>
+
+        </fieldset>
+    </main>
+    <%- include('./partials/background-decoration'); %>
+</body>
+
+</html>
