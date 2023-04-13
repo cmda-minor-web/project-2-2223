@@ -11,14 +11,30 @@
     </header>
 
     <main>
-        <h2>All Your poems</h2>
+
 
         <section>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
+            <h2>Your generated poem</h2>
+            <article>
+                <p class="select-arrow">In a
+                    <select id="world">
+                        <option value="fiction world">Fantasy World</option>
+                        <option value="Fiction World">Fiction World</option>
+                        <option value="dream world">Dream world</option>
+                    </select> full of 
+                    <select id="magic">
+                        <option value="magic">Magic</option>
+                        <option value="sorcery">Sorcery </option>
+                        <option value="witchcraft">Witchcraft</option>
+                        <option value="enchantment">Enchantment</option>
+                        <option value="Spells">Spells</option>
+                    </select> a child meets a strange particular creature.
+                </p>
+            </article>
+
+            <a href="/generate">Make another poems</a>
+
+
         </section>
 
     </main>
@@ -27,7 +43,7 @@
         <%- include('./partials/footer'); %>
     </footer>
 
-<%- include('./partials/background-decoration'); %>
+    <%- include('./partials/background-decoration'); %>
 
 </body>
 
