@@ -571,6 +571,7 @@ header nav p {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 3em;
+        
         width: 90vw;
         height: 40vh;
         border-radius: 2em;

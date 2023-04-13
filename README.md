@@ -1,7 +1,11 @@
-# Dicho di Hubentut ~ Youth poetry
+# 👋🏼 Dicho di Hubentut ~ Youth poetry
 
 
-## 👁️ Live Site Link! 👁️
+
+## 👁️ Demo Link! 👁️
+- insert link
+
+--- 
 
 ## Projectweek 3: Hackathon 
 Teammates:
@@ -10,8 +14,18 @@ Teammates:
 - Hilal Tapan 
 - Laiba Choudhry
 
+---
+
 ## Concept
-During the projectweek we are given a choice between 2 projects, we have decided to go with the project Prompts engineering with poems For this assignment we will have to fetch an api where you can generate  
+During the projectweek we are given a choice between 2 projects, we have decided to go with the project Prompts engineering with poems. For this assignment we will have to fetch an api where you can generate poems
+- leg verder uit
+
+---
+
+## Job story
+Leg uit
+
+---
 
 ## 💻 Intallation guide 💻
 ### Install nvm
@@ -38,9 +52,38 @@ Run the following code to start the server:
 node app.js
 ```
 
-## 🛠️ Features combined 🛠️ 
+---
 
+## 🛠️ Features combined 🛠️ 
+Leg uit 
+
+---
 
 ## 📄 Licence 📄 
 This project has a MIT License - see the license file for more details.
+
+---
+
+## 💾 Used technologies 💾
+- EJS templating engine
+- Node.js
+- Service worker
+- Express
+
+---
+
+## schetsen
+uitleg per pagina schets
+
+
+---
+
+## hi fi prototype
+
+
+---
+
+## 📁 Sources 📁
+
+
 ---
