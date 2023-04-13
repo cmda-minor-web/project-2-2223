@@ -29,18 +29,23 @@
         </section>
 
         <section>
-            <form>
+            <form action="./loading.ejs">
+                <h2>Make your poems</h2>
                 <label for="input-text">Thema</label>
                 <textarea id="input-text" rows="10" placeholder="Enter your input here..."></textarea>
                 <!-- insert thema api in input field??-->
+                <button type="submit">Generate</button>
             </form>
 
-            <div class="preview">Preview:</div>
+            <div class="preview">
+                <h2>Preview:</h2>
+            </div>
 
         </section>
 
         </fieldset>
     </main>
+    <%- include('./partials/background-decoration'); %>
 </body>
 
 </html>
