@@ -1,0 +1,41 @@
+{
+    "name": "Dicho di Hubentut",
+    "short_name": "Dicho di Hubentut",
+    "start_url": "/",
+    "scope":"/",
+    "display":"standalone",
+    "background_color": "#e2e2e2",
+    "theme_color": "#ff4a61",
+    "orientation":"portrait-primary",
+    "icons": [
+        {
+            "src":"/images/icons/icon-192x192.png",
+            "type": "image/png",
+            "sizes:":"192x192", 
+            "purpose": "any maskable"
+        },
+
+    {
+        "src": "/images/icons/icon-256x256.png",
+        "type": "image/png",
+        "sizes:": "256x256",
+        "purpose": "any maskable"
+    },
+
+    {
+        "src": "/images/icons/icon-384x384.png",
+        "type": "image/png",
+        "sizes:": "384x384",
+        "purpose": "any maskable"
+    },
+
+    {
+    "src": "/images/icons/icon-512x512.png",
+    "type": "image/png",
+    "sizes": "512x512",
+    "purpose": "any maskable"
+    }
+    
+    ],
+    "description":"An app that generates poems for the young adults"
+}
