@@ -151,7 +151,7 @@ header nav p {
 }
 
 /*********************************/
-/* BACHGROUND-DECORATION GROUP 2 */
+/* DECORATION GROUP 2 */
 /*********************************/
 .background-decoration-2 {
     z-index: -1;
@@ -291,6 +291,12 @@ header nav p {
 /********/
 /* MAIN */
 /********/
+#offline main {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #start main {
     min-height: 50vh;
@@ -298,7 +304,14 @@ header nav p {
     justify-content: center;
     align-items: center;
 }
-
+#offline main p {
+    font-size: 18px;
+    margin: 0;
+    color: var(--text-color);
+    font-size: var(--font-size);
+    line-height: var(--font-size);
+    zoom: 1.5;
+}
 
 #start main p {
     font-size: 18px;
@@ -308,7 +321,6 @@ header nav p {
     line-height: var(--font-size);
     zoom: 1.5;
 }
-
 
 #start main p .link {
     display: inline-block;
@@ -402,3 +414,116 @@ header nav p {
 #start main p .link:hover span {
     transform: translateY(calc(var(--font-size) * -1));
 }
+
+/**********************/
+/* LOADING STATE 1 */
+/**********************/
+#loading {
+        --length:8;
+        --duration:2;
+        
+        margin:0;
+        padding:.5em 1em;
+        border-radius:1em;
+        list-style:none;
+        display:flex;
+        gap:.1em;
+        border:solid .05em #ff4a61;
+        background-color:#ff4a61;
+        font-size:3em; 
+    }
+    
+    /************/
+    /* A SQUARE */
+    /************/
+    @keyframes squash-animation {
+      0%    { transform: none; }
+      10.5% { transform: scale(1.2, .8); }
+      21%   { transform: scale(.9, 1.1); }
+      27%   {
+            transform: scale(1.35, .65);
+        animation-timing-function:cubic-bezier(0.165, 0.840, 0.440, 1.000);
+        }
+      45% {
+            transform: translatey(-.5em) scale(1, 1.3); 
+        animation-timing-function:cubic-bezier(0.895, 0.030, 0.685, 0.220); 
+        }
+      63%   { transform: scale(2, .5); }
+      72%   { transform: scale(.8, 1.2); }
+      78%   { transform: scale(1.1, .9); }
+      82.5% { transform: scale(.95, 1.05); }
+      87%   { transform: scale(1.02, .98); }
+        90%,
+        100%  { transform: none; }
+    }
+    
+    li {
+        width:1em;
+        aspect-ratio:2;
+        font-size:.5em;
+        color:white;
+        transform-origin:bottom;
+        font-family: 'Commissioner', Arial,
+            Helvetica,
+            sans-serif;
+        
+        animation-name:squash-animation;
+        animation-duration:calc( var(--duration) * 1.4s );
+        animation-iteration-count:infinite;
+        animation-fill-mode:backwards;
+        animation-delay:calc( var(--duration) * 1s / var(--length) * ( var(--index) - var(--length) ) );	
+    }
+    
+    #loading > li:nth-of-type(1) {
+    /* 	--delay:0s; */
+        --index:0;
+    }
+    
+    #loading > li:nth-of-type(2) {
+    /* 	--delay:.25s; */
+        --index:1;
+    }
+    
+    #loading > li:nth-of-type(3) {
+    /* 	--delay:.5s; */
+        --index:2;
+    }
+    
+    #loading > li:nth-of-type(4) {
+    /* 	--delay:.75s; */
+        --index:3;
+    }
+    
+    #loading > li:nth-of-type(5) {
+    /* 	--delay:1s; */
+        --index:4;
+    }
+    
+    #loading > li:nth-of-type(6) {
+    /* 	--delay:1.25s; */
+        --index:5;
+    }
+    
+    #loading > li:nth-of-type(7) {
+        --index:6;
+    }
+    
+    #loading > li:nth-of-type(8) {
+        --index:8;
+    }
+    
+    #loading > li:nth-of-type(9) {
+        --index:9;
+    }
+    
+    
+    /* I accepted start counting at zero ;-) */
+    #loading > li:nth-of-type(1) { --index:0; }
+    #loading > li:nth-of-type(2) { --index:1; }
+    #loading > li:nth-of-type(3) { --index:2; }
+    #loading > li:nth-of-type(4) { --index:3; }
+    #loading > li:nth-of-type(5) { --index:4; }
+    #loading > li:nth-of-type(6) { --index:5; }
+    #loading > li:nth-of-type(7) { --index:6; }
+    #loading > li:nth-of-type(8) { --index:7; }
+    #loading > li:nth-of-type(9) { --index:8; }
