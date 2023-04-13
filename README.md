@@ -9,7 +9,7 @@ Teammates:
 
 ## Concept
 During the projectweek we are given a choice between 2 projects, we have decided to go with the project Prompts engineering with poems For this assignment we will have to fetch an api where you can generate  
----
+
 ## Features combined
 
 
