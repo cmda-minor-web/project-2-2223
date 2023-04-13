@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8000;
 // let minifyHTML = require('express-minify-html');
+
 let options = {
   maxAge: '2y',
   etag: false

@@ -21,35 +21,39 @@ router.get('/poems', (req, res) => {
         if (error) {
             res.send(error)
         } else {
-            console.log(JSON.parse(body).data)
-            // console.log(body)
             res.render('poems', {
                 title: 'Make your poem',
-                poemsData: JSON.parse(body).data
+                data: Object.values(JSON.parse(body).data)
             });
         }
     });
 });
 
-router.get('/offline', function(req, res) {
-    res.render('offline', {
-        title: 'Offline page'
+router.get('/loading', (req, res)=>{
+    res.render('loading', {
+        title: 'Poems are loading'
     })
 })
 
-router.get('/generate', (req, res)=>{
-    request.get(options, (error, response, body)=>{
-        if(error){
-            res.send(error)
-            console.log(error)
-        }else {
-            console.log(body)
-            res.render('generate-poems', {
-               title: 'Generating',
-               generateData: body 
-            });
-        }
+
+router.get('/offline', function(req, res) {
+    res.render('offline', {
+        title: 'Offline page',
+        pageTitle: 'You are offline'
     })
 })
+
+router.get('/generate', (req, res) => {
+    request.get(options, (error, response, body) => {
+        if (error) {
+            res.send(error)
+        } else {
+            res.render('generate-poems', {
+                title: 'Make your poem',
+                data: Object.values(JSON.parse(body).data)
+            });
+        }
+    });
+});
 
 module.exports = router;
