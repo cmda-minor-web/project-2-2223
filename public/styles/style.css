@@ -11,6 +11,8 @@
     --orange-yellow: #feb63d;
     --light-grey: #e2e2e2;
     --black: #000000;
+    --gray: gray;
+    --white: white;
 
     --title: 'Commissioner', Arial,
         Helvetica,
@@ -483,6 +485,7 @@ header nav p {
 
     82.5% {
         transform: scale(.95, 1.05);
+
     }
 
     87% {
