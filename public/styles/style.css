@@ -24,6 +24,7 @@
     --text-color: #2b3044;
     --font-size: 16px;
     --font-size-index: 3em;
+    --font-size-poems: 3em;
     --duration: 2.5s;
     --duration-line: 0.84s;
 }
@@ -289,6 +290,9 @@ header nav p {
     .background-decoration-3 {
         display: none;
     }
+
+
+    
 }
 
 /********/
