@@ -1,17 +1,16 @@
-# Dicho di Hubentut
-## Youth poetry
+# Dicho di Hubentut ~ Youth poetry
 
-### Projectweek 3: Hackathon 
+## Projectweek 3: Hackathon 
 Teammates:
 - Jevona Magdalena
 - Keïsha Alexander
-- hilal 
+- Hilal Tapan 
+- Laiba Choudhry
 
 ## Concept
-Voor de 
+During the projectweek we are given a choice between 2 projects, we have decided to go with the project Prompts engineering with poems For this assignment we will have to fetch an api where you can generate  
 
----
-## Inhoudsopgave
+## Features combined
 
 
 

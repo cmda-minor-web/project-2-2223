@@ -11,65 +11,33 @@
     </header>
 
     <main>
+        <section id="type">
+            <ul>
+                <li>
+                    <!-- insert api types -->
+                </li>
+            </ul>
+        </section>
 
-        <section id="fill-prompt">
-            <form action="/poems">
-                <fieldset>
-                    <h2>Maak je eigen gedichten</h2>
-
-                    <fieldset>
-                        <legend>Kies je eigen thema</legend>
-                        <ul>
-                            <li><label for=""><input type="radio" name="" id=""> Limericks</label></li>
-                        </ul>
-                    </fieldset>
+        <section>
+            <form>
+                <label for="input-text">Input:</label>
+                <textarea id="input-text" rows="5" placeholder="Enter your input here..."></textarea>
+                <!-- insert thema api in input field??-->
 
 
-                    <fieldset>
-
-                    </fieldset>
-
-                    
-                </fieldset>
+                <div class="preview">Preview:</div>
             </form>
         </section>
 
-
-
-
-
-
-
-
-
-
-
+        <!-- <%- include('./partials/loading'); %> -->
     </main>
 
     <footer>
         <%- include('./partials/footer'); %>
     </footer>
 
-<div class="background-decoration-1">
-    <figure></figure>
-    <figure></figure>
-    <figure></figure>
-</div>
-
-<div class="background-decoration-2">
-    <figure></figure>
-    <figure></figure>
-    <figure></figure>
-</div>
-
-<div class="background-decoration-3">
-    <figure></figure>
-    <figure></figure>
-</div>
-
-
-
-
+<%- include('./partials/background-decoration'); %>
 
 </body>
 
