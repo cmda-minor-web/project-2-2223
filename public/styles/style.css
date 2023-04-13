@@ -829,7 +829,7 @@ padding: 1em 1em 1em 2em;
 
 #poems-page main p {
     line-height: 1.9;
-    font-size: clamp(1em, 5vw, 3em);
+    font-size: clamp(1em, 2.5vw, 3em);
 }
 
 #poems-page main section a {
