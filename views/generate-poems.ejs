@@ -5,47 +5,40 @@
     <%- include('./partials/head'); %>
 </head>
 
-
 <body id="generate">
-
     <header>
         <%- include('./partials/header'); %>
     </header>
 
     <main>
-
-        <section>
+        <section id="type">
             <ul>
                 <li>
-                    <!-- insert api types -->
-                </li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                    <% data.forEach((type) => { %>
+                        <li><%= type %></li>
+                <% }); %>
+            </li>
             </ul>
         </section>
 
         <section>
-            <form action="./loading.ejs">
-                <h2>Make your poems</h2>
-                <label for="input-text">Thema</label>
-                <textarea id="input-text" rows="10" placeholder="Enter your input here..."></textarea>
+            <form>
+                <label for="input-text">Input:</label>
+                <textarea id="input-text" rows="5" placeholder="Enter your input here..."></textarea>
                 <!-- insert thema api in input field??-->
-                <button type="submit">Generate</button>
+
+                <label for="preview">Preview</label>
+                <div class="preview">Text</div>
             </form>
-
-            <div class="preview">
-                <h2>Preview:</h2>
-            </div>
-
         </section>
-
-        </fieldset>
     </main>
+
     <%- include('./partials/background-decoration'); %>
+
+
+
+<script src="./scripts/preview.js"></script>
+
 </body>
 
 </html>
