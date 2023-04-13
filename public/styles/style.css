@@ -370,6 +370,38 @@ header nav p {
         animation-fill-mode:backwards;
         animation-delay:calc( var(--duration) * 1s / var(--length) * ( var(--index) - var(--length) ) );	
     }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+        
+        
+     label {
+        flex: 0 0 100%;
+        margin: 10px 0;
+        font-weight: bold;
+    }
+        
+
+        
+    input, textarea {
+        flex: 1;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+    
+    .preview {
+        flex: 1;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
     
     #loading > li:nth-of-type(1) {
     /* 	--delay:0s; */
@@ -424,3 +456,7 @@ header nav p {
     #loading > li:nth-of-type(7) { --index:6; }
     #loading > li:nth-of-type(8) { --index:7; }
     #loading > li:nth-of-type(9) { --index:8; }
+
+
+
+    

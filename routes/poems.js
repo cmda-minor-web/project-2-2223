@@ -33,7 +33,8 @@ router.get('/poems', (req, res) => {
 
 router.get('/offline', function(req, res) {
     res.render('offline', {
-        title: 'Offline page'
+        title: 'Offline page',
+        pageTitle: 'You are offline'
     })
 })
 

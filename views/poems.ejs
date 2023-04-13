@@ -14,7 +14,9 @@
         <section id="type">
             <ul>
                 <li>
-                    <!-- insert api types -->
+                    <% data.forEach((type) => { %>
+                        <li><%= type.name %></li>
+                    <% }); %>
                 </li>
             </ul>
         </section>
@@ -30,7 +32,7 @@
             </form>
         </section>
 
-        <!-- <%- include('./partials/loading'); %> -->
+         <%- include('./partials/loading'); %> 
     </main>
 
     <footer>
@@ -57,7 +59,7 @@
 
 
 
-
+    <script src="/public/scripts/preview.js"></script>
 </body>
 
 </html>
