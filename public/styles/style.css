@@ -22,7 +22,8 @@
         sans-serif;
 
     --text-color: #2b3044;
-    --font-size: 3em;
+    --font-size: 16px;
+    --font-size-index: 3em;
     --duration: 2.5s;
     --duration-line: 0.84s;
 }
@@ -330,8 +331,8 @@ header nav p {
     font-size: 18px;
     margin: 0;
     color: var(--text-color);
-    font-size: var(--font-size);
-    line-height: var(--font-size);
+    font-size: var(--font-size-index);
+    line-height: var(--font-size-index);
     zoom: 1.5;
 }
 
@@ -344,7 +345,7 @@ header nav p {
 #start main p .link div:first-child {
     display: flex;
     overflow: hidden;
-    text-shadow: 0 var(--font-size) 0 var(--text-color);
+    text-shadow: 0 var(--font-size-index) 0 var(--text-color);
 }
 
 #start main p .link div:last-child {
@@ -372,7 +373,7 @@ header nav p {
     }
 
     50% {
-        transform: translateY(calc(var(--font-size) * -1));
+        transform: translateY(calc(var(--font-size-index) * -1));
     }
 
     100% {
@@ -513,7 +514,15 @@ li {
     animation-delay: calc(var(--duration) * 1s / var(--length) * (var(--index) - var(--length)));
     text-shadow: 0 1px 2px  rgb(0 0 0/ 0.5);
 
-}
+    #generate section:nth-of-type(2) textarea {
+        background-color:var(--light-grey) ;
+        border: none;
+        width: 30vw;
+        border-radius: 1em;
+        padding: 1em;
+        
+    }
+
 
 #loading>li:nth-of-type(1) {
     /* 	--delay:0s; */
@@ -601,10 +610,6 @@ li {
 #loading>li:nth-of-type(10) {
     --index: 9;
 }
-
-
-
-
 
 /************/
 /* GENERATOR */
