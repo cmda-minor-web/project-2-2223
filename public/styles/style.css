@@ -429,8 +429,6 @@ header nav p {
         list-style:none;
         display:flex;
         gap:.1em;
-        border:solid .05em #ff4a61;
-        background-color:#ff4a61;
         font-size:3em; 
     }
     
@@ -461,13 +459,11 @@ header nav p {
     li {
         width:1em;
         aspect-ratio:2;
-        font-size:.5em;
-        color:white;
+        font-size:2em;
+        color:var(--black);
         transform-origin:bottom;
-        font-family: 'Commissioner', Arial,
-            Helvetica,
-            sans-serif;
-        
+        font-family: var(--title);
+        font-weight: bold;
         animation-name:squash-animation;
         animation-duration:calc( var(--duration) * 1.4s );
         animation-iteration-count:infinite;
