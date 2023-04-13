@@ -304,6 +304,7 @@ header nav p {
     justify-content: center;
     align-items: center;
 }
+
 #offline main p {
     font-size: 18px;
     margin: 0;
@@ -420,176 +421,240 @@ header nav p {
 /* LOADING STATE */
 /**********************/
 #loading {
-        --length:8;
-        --duration:2;
-        
-        margin:0;
-        padding:.5em 1em;
-        border-radius:1em;
-        list-style:none;
-        display:flex;
-        gap:.1em;
-        font-size:3em; 
+    --length: 8;
+    --duration: 2;
+
+    margin: 0;
+    padding: .5em 1em;
+    border-radius: 1em;
+    list-style: none;
+    display: flex;
+    gap: .1em;
+    font-size: 3em;
+}
+
+/************/
+/* A SQUARE */
+/************/
+@keyframes squash-animation {
+    0% {
+        transform: none;
     }
-    
-    /************/
-    /* A SQUARE */
-    /************/
-    @keyframes squash-animation {
-      0%    { transform: none; }
-      10.5% { transform: scale(1.2, .8); }
-      21%   { transform: scale(.9, 1.1); }
-      27%   {
-            transform: scale(1.35, .65);
-        animation-timing-function:cubic-bezier(0.165, 0.840, 0.440, 1.000);
-        }
-      45% {
-            transform: translatey(-.5em) scale(1, 1.3); 
-        animation-timing-function:cubic-bezier(0.895, 0.030, 0.685, 0.220); 
-        }
-      63%   { transform: scale(2, .5); }
-      72%   { transform: scale(.8, 1.2); }
-      78%   { transform: scale(1.1, .9); }
-      82.5% { transform: scale(.95, 1.05); }
-      87%   { transform: scale(1.02, .98); }
-        90%,
-        100%  { transform: none; }
+
+    10.5% {
+        transform: scale(1.2, .8);
     }
-    
-    li {
-        width:1em;
-        aspect-ratio:2;
-        font-size:2em;
-        color:var(--black);
-        transform-origin:bottom;
-        font-family: var(--title);
-        font-weight: bold;
-        animation-name:squash-animation;
-        animation-duration:calc( var(--duration) * 1.4s );
-        animation-iteration-count:infinite;
-        animation-fill-mode:backwards;
-        animation-delay:calc( var(--duration) * 1s / var(--length) * ( var(--index) - var(--length) ) );	
+
+    21% {
+        transform: scale(.9, 1.1);
     }
-    
-    #loading > li:nth-of-type(1) {
+
+    27% {
+        transform: scale(1.35, .65);
+        animation-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    }
+
+    45% {
+        transform: translatey(-.5em) scale(1, 1.3);
+        animation-timing-function: cubic-bezier(0.895, 0.030, 0.685, 0.220);
+    }
+
+    63% {
+        transform: scale(2, .5);
+    }
+
+    72% {
+        transform: scale(.8, 1.2);
+    }
+
+    78% {
+        transform: scale(1.1, .9);
+    }
+
+    82.5% {
+        transform: scale(.95, 1.05);
+    }
+
+    87% {
+        transform: scale(1.02, .98);
+    }
+
+    90%,
+    100% {
+        transform: none;
+    }
+}
+
+li {
+    width: 1em;
+    aspect-ratio: 2;
+    font-size: 1.5em;
+    color: var(--coral-deeppink);
+    transform-origin: bottom;
+    font-family: var(--title);
+    font-weight: bold;
+    animation-name: squash-animation;
+    animation-duration: calc(var(--duration) * 1.4s);
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    animation-delay: calc(var(--duration) * 1s / var(--length) * (var(--index) - var(--length)));
+    text-shadow: 0 1px 2px  rgb(0 0 0/ 0.5);
+
+}
+
+#loading>li:nth-of-type(1) {
     /* 	--delay:0s; */
-        --index:0;
-    }
-    
-    #loading > li:nth-of-type(2) {
+    --index: 0;
+}
+
+#loading>li:nth-of-type(2) {
     /* 	--delay:.25s; */
-        --index:1;
-    }
-    
-    #loading > li:nth-of-type(3) {
+    --index: 1;
+}
+
+#loading>li:nth-of-type(3) {
     /* 	--delay:.5s; */
-        --index:2;
-    }
-    
-    #loading > li:nth-of-type(4) {
+    --index: 2;
+}
+
+#loading>li:nth-of-type(4) {
     /* 	--delay:.75s; */
-        --index:3;
-    }
-    
-    #loading > li:nth-of-type(5) {
+    --index: 3;
+}
+
+#loading>li:nth-of-type(5) {
     /* 	--delay:1s; */
-        --index:4;
-    }
-    
-    #loading > li:nth-of-type(6) {
+    --index: 4;
+}
+
+#loading>li:nth-of-type(6) {
     /* 	--delay:1.25s; */
-        --index:5;
-    }
-    
-    #loading > li:nth-of-type(7) {
-        --index:6;
-    }
-    
-    #loading > li:nth-of-type(8) {
-        --index:8;
-    }
-    
-    #loading > li:nth-of-type(9) {
-        --index:9;
-    }
-    
-    
-    /* I accepted start counting at zero ;-) */
-    #loading > li:nth-of-type(1) { --index:0; }
-    #loading > li:nth-of-type(2) { --index:1; }
-    #loading > li:nth-of-type(3) { --index:2; }
-    #loading > li:nth-of-type(4) { --index:3; }
-    #loading > li:nth-of-type(5) { --index:4; }
-    #loading > li:nth-of-type(6) { --index:5; }
-    #loading > li:nth-of-type(7) { --index:6; }
-    #loading > li:nth-of-type(8) { --index:7; }
-    #loading > li:nth-of-type(9) { --index:8; }
+    --index: 5;
+}
+
+#loading>li:nth-of-type(7) {
+    --index: 6;
+}
+
+#loading>li:nth-of-type(8) {
+    --index: 8;
+}
+
+#loading>li:nth-of-type(9) {
+    --index: 9;
+}
+
+#loading>li:nth-of-type(10) {
+    --index: 10;
+}
+
+/* I accepted start counting at zero ;-) */
+#loading>li:nth-of-type(1) {
+    --index: 0;
+}
+
+#loading>li:nth-of-type(2) {
+    --index: 1;
+}
+
+#loading>li:nth-of-type(3) {
+    --index: 2;
+}
+
+#loading>li:nth-of-type(4) {
+    --index: 3;
+}
+
+#loading>li:nth-of-type(5) {
+    --index: 4;
+}
+
+#loading>li:nth-of-type(6) {
+    --index: 5;
+}
+
+#loading>li:nth-of-type(7) {
+    --index: 6;
+}
+
+#loading>li:nth-of-type(8) {
+    --index: 7;
+}
+
+#loading>li:nth-of-type(9) {
+    --index: 8;
+}
+
+#loading>li:nth-of-type(10) {
+    --index: 9;
+}
 
 
 
 
-     
-    /************/
-    /* GENERATOR */
-    /************/
-    #generate main {
-        justify-content: center;
-        width: 90vw;
-        height: 55vh;
-        margin: auto; 
-        box-shadow: gray;
-      }
-      
 
-    /* section 1 */
-    #generate section:nth-of-type(1){
-        margin-bottom: 2em;
-    }
-
-    #generate section:nth-of-type(1) ul {
-        display: flex;
-        gap: 3vw;
-    }
-
-    #generate section:nth-of-type(1) li {
-        background-color: var(--coral-deeppink);
-        width: 10vw;
-        height: 5vh;
-        border-radius: 3em;
-    }
+/************/
+/* GENERATOR */
+/************/
+#generate main {
+    justify-content: center;
+    width: 90vw;
+    height: 55vh;
+    margin: auto;
+    box-shadow: gray;
+}
 
 
-    /* section 2 */
-    #generate section:nth-of-type(2) {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1em;
-        background-color: white;
-        width: 90vw;
-        height: 40vh;
-        border-radius: 2em;
-        padding: 2em;
+/* section 1 */
+#generate section:nth-of-type(1) {
+    margin-bottom: 2em;
+}
 
-    }
+#generate section:nth-of-type(1) ul {
+    display: flex;
+    gap: 3vw;
+}
 
-    #generate section:nth-of-type(2) form {
-        grid-column-start: 1 ;
-        display: flex;
-        flex-direction: column;
-        font-family: var(--text);
-    }
+#generate section:nth-of-type(1) li {
+    background-color: var(--coral-deeppink);
+    width: 10vw;
+    height: 5vh;
+    border-radius: 3em;
+}
 
-    #generate section:nth-of-type(2) label {
-        color: black ;
-        font-family: var(--title);
-        margin-bottom: 1em ;
-    }
 
-    #generate section:nth-of-type(2) textarea {
-        background-color:var(--light-grey) ;
-        border: none;
-    }
-    #generate section:nth-of-type(2) div {
-        grid-column-start: 2 ;
-        width: 5em;
-    }
+/* section 2 */
+#generate section:nth-of-type(2) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    background-color: white;
+    width: 90vw;
+    height: 40vh;
+    border-radius: 2em;
+    padding: 2em;
+
+}
+
+#generate section:nth-of-type(2) form {
+    grid-column-start: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--text);
+}
+
+#generate section:nth-of-type(2) label {
+    color: black;
+    font-family: var(--title);
+    margin-bottom: 1em;
+}
+
+#generate section:nth-of-type(2) textarea {
+    background-color: var(--light-grey);
+    border: none;
+}
+
+#generate section:nth-of-type(2) div {
+    grid-column-start: 2;
+    width: 5em;
+}
