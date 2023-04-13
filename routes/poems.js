@@ -31,6 +31,13 @@ router.get('/poems', (req, res) => {
     });
 });
 
+router.get('/loading', (req, res)=>{
+    res.render('loading', {
+        title: 'Poems are loading'
+    })
+})
+
+
 router.get('/offline', function(req, res) {
     res.render('offline', {
         title: 'Offline page'
