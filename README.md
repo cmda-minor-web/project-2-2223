@@ -16,7 +16,7 @@ Teammates:
 
 ---
 
-## Concept
+## 📇 Concept 📇
 During the projectweek we are given a choice between 2 projects, we have decided to go with the project Prompts engineering with poems. For this assignment we will have to fetch an api where you can generate poems based on themes and types. The user has a few types to choose from and fir the theme they can write anything they want.
 
 ---
@@ -77,24 +77,24 @@ This project has a MIT License - see the license file for more details.
 
 ## 🖊 Schetsen 🖊
 * Schets 1
-[schets1](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/idee-0.png)
+![schets1](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/idee-0.png)
 
 * Schets 2
-[schets1](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/idee-1.png)
+![schets1](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/idee-1.png)
 
 
 * Schets 3
-[schets1](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/idee-2.png)
+![schets1](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/idee-2.png)
 
 
 * Schets 4
-[schets1](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/idee-3.png)
+![schets1](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/idee-3.png)
 
 * Startpage schets
-[startpage](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/startpage.png)
+![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/startpage.png)
 
 * Loading state schets
-[startpage](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/loading-state.png)
+![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/loading-state.png)
 
 ---
 
