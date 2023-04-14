@@ -76,30 +76,48 @@ This project has a MIT License - see the license file for more details.
 ---
 
 ## 🖊 Schetsen 🖊
-* Schets 1
+### Schets 1
 ![schets1](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/idee-0.png)
 
-* Schets 2
+### Schets 2
 ![schets1](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/idee-1.png)
 
 
-* Schets 3
+### Schets 3
 ![schets1](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/idee-2.png)
 
 
-* Schets 4
+### Schets 4
 ![schets1](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/idee-3.png)
 
-* Startpage schets
+### Startpage schets
 ![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/startpage.png)
 
-* Loading state schets
+### Loading state schets
 ![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/loading-state.png)
 
 ---
 
 ## 🔮 Hi fi prototype 🔮
+### Startpagina
+![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/Tapan/public/images/Startpagina.png)
 
+### Generate 1
+![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/Tapan/public/images/Startpagina.png)
+
+
+### Generate 2
+![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/Tapan/public/images/prompt%20forms.png)
+
+
+### Generate 3
+![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/Tapan/public/images/propmpt-page.png)
+
+### Loading
+![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/Tapan/public/images/loading.png)
+
+### Poems
+![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/Tapan/public/images/poems%20page.png)
 
 ---
 
