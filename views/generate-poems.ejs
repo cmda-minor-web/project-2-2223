@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('./partials/head'); %>
+</head>
+
+<body id="generate">
+    <header>
+        <%- include('./partials/header'); %>
+    </header>
+
+    <main>
+        <section id="type">
+            <h2>Choose a type</h2>
+            <ul>
+                <li>
+                    <% data.forEach((type) => { %>
+                        <li><%= type %></li>
+                <% }); %>
+            </li>
+            </ul>
+        </section>
+
+        <section>
+            <form action="/loading">
+                <h2>Make your poem</h2>
+                <label for="input-text">Choose a theme</label>
+                <textarea id="input-text" rows="8" placeholder="Enter your input here..."></textarea>
+                <button type="submit">Generate</button>
+            </form>
+
+            <div class="preview">Preview
+            </div>
+        </section>
+    </main>
+
+    <%- include('./partials/background-decoration'); %>
+
+<script src="./scripts/preview.js"></script>
+
+</body>
+
+</html>
