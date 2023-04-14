@@ -3,6 +3,7 @@
 
 <head>
     <%- include('./partials/head'); %>
+    <script src="https://inputtools.google.com/js/ime.js"></script>
 </head>
 
 <body id="generate">
@@ -38,8 +39,24 @@
     <%- include('./partials/background-decoration'); %>
 
 
+    <!-- <script>
+        var ime;
+        function onApiLoad() {
+          ime = new google.inputmethod.InputMethodManager();
+        }
+        function openKeyboard() {
+          ime.showInputView(document.getElementById('myTextarea'));
+        }
+    
+        var textarea = document.getElementById("myTextarea");
+        textarea.addEventListener("click", function() {
+          openKeyboard();
+        });
+      </script> -->
 
 <script src="./scripts/preview.js"></script>
+<script src="./scripts/keyboard.js"></script>
+
 
 </body>
 
