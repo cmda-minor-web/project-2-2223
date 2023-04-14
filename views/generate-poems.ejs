@@ -12,6 +12,7 @@
 
     <main>
         <section id="type">
+            <h2>Choose a type</h2>
             <ul>
                 <li>
                     <% data.forEach((type) => { %>
@@ -22,14 +23,15 @@
         </section>
 
         <section>
-            <form>
-                <label for="input-text">Input:</label>
-                <textarea id="input-text" rows="5" placeholder="Enter your input here..."></textarea>
-                <!-- insert thema api in input field??-->
-
-                <label for="preview">Preview</label>
-                <div class="preview">Text</div>
+            <form action="/loading">
+                <h2>Make your own poem</h2>
+                <label for="input-text">Choose a theme</label>
+                <textarea id="input-text" rows="8" placeholder="Enter your input here..."></textarea>
+                <button type="submit">Generate</button>
             </form>
+
+            <div class="preview">Preview
+            </div>
         </section>
     </main>
 
