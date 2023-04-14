@@ -1,29 +1,28 @@
 # 👋🏼 Dicho di Hubentut ~ Youth poetry
-
+![logo](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/PW2%20-%20Hackaton%20trans.png)
 
 
 ## 👁️ Demo Link! 👁️
-- insert link
+[dicho-hackaton-production.up.railway.app/](dicho-hackaton-production.up.railway.app/)
 
 --- 
 
-## Projectweek 3: Hackathon 
+## 💻 Projectweek 3: Hackathon 💻
 Teammates:
-- Jevona Magdalena
-- Keïsha Alexander
-- Hilal Tapan 
-- Laiba Choudhry
+- 👩🏾 Jevona Magdalena 
+- 👩🏾 Keïsha Alexander
+- 👩🏻 Hilal Tapan 
+- 👩🏽 Laiba Choudhry
 
 ---
 
-## Concept
-During the projectweek we are given a choice between 2 projects, we have decided to go with the project Prompts engineering with poems. For this assignment we will have to fetch an api where you can generate poems
-- leg verder uit
+## 📇 Concept 📇
+During the projectweek we are given a choice between 2 projects, we have decided to go with the project Prompts engineering with poems. For this assignment we will have to fetch an api where you can generate poems based on themes and types. The user has a few types to choose from and fir the theme they can write anything they want.
 
 ---
 
-## Job story
-Leg uit
+## 📖 Job story 📖
+When I am in a museum I would like to be able to generate poems based on themes.
 
 ---
 
@@ -55,7 +54,11 @@ node app.js
 ---
 
 ## 🛠️ Features combined 🛠️ 
-Leg uit 
+- Can generate poems
+- Can put own input
+- Works on 73 inch screen
+- Works on touchscreen
+- preview mode on input fields
 
 ---
 
@@ -72,13 +75,53 @@ This project has a MIT License - see the license file for more details.
 
 ---
 
-## schetsen
-uitleg per pagina schets
+## 🖊 Schetsen 🖊
+### Schets 1
+![schets1](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/idee-0.png)
 
+### Schets 2
+![schets1](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/idee-1.png)
+
+
+### Schets 3
+![schets1](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/idee-2.png)
+
+
+### Schets 4
+![schets1](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/idee-3.png)
+
+### Startpage schets
+![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/startpage.png)
+
+### Loading state schets
+![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/main/public/images/loading-state.png)
 
 ---
 
-## hi fi prototype
+## 🔮 Hi fi prototype 🔮
+### Startpagina
+![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/Tapan/public/images/Startpagina.png)
+
+### Generate 1
+![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/Tapan/public/images/Startpagina.png)
+
+
+### Generate 2
+![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/Tapan/public/images/prompt%20forms.png)
+
+
+### Generate 3
+![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/Tapan/public/images/propmpt-page.png)
+
+### Loading
+![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/Tapan/public/images/loading.png)
+
+### Poems
+![startpage](https://github.com/RainbowJM/dicho-hackaton/blob/Tapan/public/images/poems%20page.png)
+
+---
+
+## 👩🏼 User test 👩🏼
 
 
 ---
