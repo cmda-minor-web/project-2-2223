@@ -122,11 +122,35 @@ This project has a MIT License - see the license file for more details.
 ---
 
 ## 👩🏼 User test 👩🏼
+We conducted a user test on 3 users. We asked if they could just scroll and navigate through our application. During the user test we discover various things like, the user can’t use the keyboard. 
 
+We noted all the obstacle the user had while using our application. Per user we have described what they went through
+
+--- 
+
+### User 1: 
+Remove on the home page the home button, because he thought that he wasn’t on the home page. 
+On the screen you can’t type in the text in the input fields, no keyboard
+The touchscreen is basically just a mouse
+Keep in mind the touch screen
+
+### User 2: 
+Everything went smoothly
+He knew where to navigate and what to click 
+
+
+### User 3:
+The UI of the application has to change a bit, it is not that easy to navigate
+Give the user feedback, so that they know they are right on track, the user she was really confused on where exactly to go
+She was second doubting everything, she was really confused on the page where she had to generate the poems. 
+
+
+In the future if we want to continue with the application, we will keep these notes in mind and try to implement it to our code. 
 
 ---
 
 ## 📁 Sources 📁
-
+* https://codepen.io/hilallx/pen/LYgpmGr 
+* https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope/skipWaiting
 
 ---
